@@ -1,0 +1,6 @@
+{
+  "appId": "com.apocalypse.idleclicker",
+  "appName": "Apocalypse Idle Clicker",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

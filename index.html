@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apocalypse Idle Clicker</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="creator-menu" class="hidden">
+    <h2>Creator Menu</h2>
+    <button onclick="creator.addScrap()">+1000 Scrap</button>
+    <button onclick="creator.unlockAll()">Unlock All Upgrades</button>
+    <button onclick="creator.spawnLoot()">Spawn Loot Box</button>
+    <button onclick="creator.godMode()">Toggle God Mode</button>
+  </div>
+
+  <div id="login-screen">
+    <input type="password" id="password" placeholder="Enter Password">
+    <button onclick="checkPassword()">Enter</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <h1>Apocalypse Idle Clicker</h1>
+    <p>Scrap: <span id="scrap">0</span></p>
+    <button id="clickButton">Collect Scrap</button>
+    <div>
+      <button onclick="buyUpgrade('clickPower')">Upgrade Click Power</button>
+      <button onclick="buyUpgrade('autoClick')">Buy Auto-Clicker</button>
+    </div>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>

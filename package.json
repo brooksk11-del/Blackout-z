@@ -1,0 +1,9 @@
+{
+  "name": "apocalypse-idle-clicker",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Build step placeholder'"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
